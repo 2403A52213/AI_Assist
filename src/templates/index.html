@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Login App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Flask Login App</h1>
+    </header>
+    <main>
+        <p>This is the landing page of the application.</p>
+        <a href="{{ url_for('login') }}">Login</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Flask Login App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
